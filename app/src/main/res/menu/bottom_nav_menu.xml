@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navegation_movimiento"
+        android:icon="@drawable/money"
+        android:title="Movimiento" />
+
+    <item
+        android:id="@+id/navigation_qr"
+        android:icon="@drawable/qr"
+        android:title="Qr" />
+
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@drawable/location"
+        android:title="Sucursales" />
+
+    <item
+        android:id="@+id/navigation_transferencia"
+        android:icon="@drawable/credit"
+        android:title="Transferir" />
+
+    <item
+        android:id="@+id/usuarioFragment"
+        android:icon="@drawable/usuario"
+        android:title="Yo" />
+
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProyectoFinalMoviles</string>
+    <string name="title_activity_main_app">MainActivityApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="account_options">
+
+    </string-array>
+</resources>

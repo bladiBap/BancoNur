@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navegation_movimiento">
+    <fragment
+        android:id="@+id/navegation_movimiento"
+        android:name="com.example.proyectofinalmoviles.ui.menu.movimiento.MovimientoFragment"
+        android:label="fragment_movimiento"
+        tools:layout="@layout/fragment_movimiento" />
+    <fragment
+        android:id="@+id/navigation_qr"
+        android:name="com.example.proyectofinalmoviles.ui.menu.qr.QrFragment"
+        android:label="fragment_qr"
+        tools:layout="@layout/fragment_qr" />
+    <fragment
+        android:id="@+id/navigation_transferencia"
+        android:name="com.example.proyectofinalmoviles.ui.menu.transferencia.TransferenciaFragment"
+        android:label="fragment_transferencia"
+        tools:layout="@layout/fragment_transferencia" />
+    <fragment
+        android:id="@+id/usuarioFragment"
+        android:name="com.example.proyectofinalmoviles.ui.menu.usuario.UsuarioFragment"
+        android:label="fragment_usuario"
+        tools:layout="@layout/fragment_usuario" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.proyectofinalmoviles.ui.menu.sucursales.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>
